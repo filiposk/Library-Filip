@@ -65,18 +65,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Admin.cs">
+      <DependentUpon>ShhowRoomEF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Book.cs">
+      <DependentUpon>ShhowRoomEF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookCategory.cs">
+      <DependentUpon>ShhowRoomEF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookCategoryDAL.cs" />
+    <Compile Include="BookDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShowLibraryEF.Context.cs">
+    <Compile Include="ShhowRoomEF.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ShowLibraryEF.Context.tt</DependentUpon>
+      <DependentUpon>ShhowRoomEF.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="ShowLibraryEF.Designer.cs">
+    <Compile Include="ShhowRoomEF.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ShowLibraryEF.edmx</DependentUpon>
+      <DependentUpon>ShhowRoomEF.tt</DependentUpon>
     </Compile>
+    <Compile Include="ShowRoomEF.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShowRoomEF.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>ShhowRoomEF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Writer.cs">
+      <DependentUpon>ShhowRoomEF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WriterDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LibraryDatabase.mdf">
@@ -86,9 +108,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>LibraryDatabase.mdf</DependentUpon>
     </Content>
-    <Content Include="ShowLibraryEF.Context.tt">
+    <Content Include="ShhowRoomEF.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ShowLibraryEF.Context.cs</LastGenOutput>
+      <DependentUpon>ShowRoomEF.edmx</DependentUpon>
+      <LastGenOutput>ShhowRoomEF.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ShhowRoomEF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ShowRoomEF.edmx</DependentUpon>
+      <LastGenOutput>ShhowRoomEF.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -104,16 +132,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="ShowLibraryEF.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ShowLibraryEF.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
     <None Include="packages.config" />
-    <None Include="ShowLibraryEF.edmx.diagram">
-      <DependentUpon>ShowLibraryEF.edmx</DependentUpon>
+    <EntityDeploy Include="ShowRoomEF.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ShowRoomEF.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ShowRoomEF.edmx.diagram">
+      <DependentUpon>ShowRoomEF.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
