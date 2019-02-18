@@ -9,11 +9,11 @@ namespace LibraryCRUD
 {
     public class AdminCRUD
     {
-        private LibraryEntities DbContext;
+        private LibraryDatabaseEntities DbContext;
 
         private AdminCRUD()
         {
-            DbContext = new LibraryEntities();
+            DbContext = new LibraryDatabaseEntities();
         }
 
         public List<Admin> GetAllAdmins()

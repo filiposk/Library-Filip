@@ -8,11 +8,11 @@ namespace DataAccesLayer
 {
     public class UserCRUD
     {
-        private LibraryEntities DbContext;
+        private LibraryDatabaseEntities DbContext;
 
         private UserCRUD()
         {
-            DbContext = new LibraryEntities();
+            DbContext = new LibraryDatabaseEntities();
         }
 
         public List<User> GetAllUsers()

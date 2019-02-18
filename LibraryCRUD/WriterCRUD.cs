@@ -9,11 +9,11 @@ namespace LibraryCRUD
 {
     public class WriterCRUD
     {
-        private LibraryEntities DbContext;
+        private LibraryDatabaseEntities DbContext;
 
         private WriterCRUD()
         {
-            DbContext = new LibraryEntities();
+            DbContext = new LibraryDatabaseEntities();
         }
 
         public List<Writer> GetAllWriters()

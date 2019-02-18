@@ -9,11 +9,11 @@ namespace LibraryCRUD
 {
     public class BookCategoryCRUD
     {
-        private LibraryEntities DbContext;
+        private LibraryDatabaseEntities DbContext;
 
         private BookCategoryCRUD()
         {
-            DbContext = new LibraryEntities();
+            DbContext = new LibraryDatabaseEntities();
         }
 
         public List<BookCategory> GetAllBooksCategory()
