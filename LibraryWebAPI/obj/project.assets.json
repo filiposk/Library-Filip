@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Filip\\source\\repos\\Library Filip\\LibraryWebAPI\\LibraryWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Filip\\Documents\\GitHub\\LibraryFilip\\LibraryWebAPI\\LibraryWebAPI.csproj",
       "projectName": "LibraryWebAPI",
-      "projectPath": "C:\\Users\\Filip\\source\\repos\\Library Filip\\LibraryWebAPI\\LibraryWebAPI.csproj",
+      "projectPath": "C:\\Users\\Filip\\Documents\\GitHub\\LibraryFilip\\LibraryWebAPI\\LibraryWebAPI.csproj",
       "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Filip\\source\\repos\\Library Filip\\LibraryWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Filip\\Documents\\GitHub\\LibraryFilip\\LibraryWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
