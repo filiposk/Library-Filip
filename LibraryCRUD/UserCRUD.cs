@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using LibraryDAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +10,11 @@ namespace DataAccesLayer
 {
     public class UserCRUD
     {
-        private LibraryDatabaseEntities DbContext;
+        private FilipLibraryEntities DbContext;
 
         private UserCRUD()
         {
-            DbContext = new LibraryDatabaseEntities();
+            DbContext = new FilipLibraryEntities();
         }
 
         public List<User> GetAllUsers()

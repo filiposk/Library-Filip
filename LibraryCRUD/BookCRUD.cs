@@ -1,4 +1,5 @@
 ﻿using DataAccesLayer;
+using LibraryDAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,11 @@ namespace LibraryCRUD
 {
     public class BookCRUD
     {
-        private LibraryDatabaseEntities DbContext;
+        public FilipLibraryEntities DbContext;
 
-        private BookCRUD()
+        public BookCRUD()
         {
-            DbContext = new LibraryDatabaseEntities();
+            DbContext = new FilipLibraryEntities();
         }
 
         public List<Book> GetAllBooks()

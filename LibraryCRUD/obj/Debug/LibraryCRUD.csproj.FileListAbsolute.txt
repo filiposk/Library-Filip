@@ -1,0 +1,17 @@
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.csprojAssemblyReference.cache
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryDatabase.mdf
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryDatabase_log.ldf
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryCRUD.dll.config
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryCRUD.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryCRUD.pdb
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\EntityFramework.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryDAL.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryDAL.pdb
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\LibraryDAL.dll.config
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\EntityFramework.xml
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.csproj.CopyComplete
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.pdb

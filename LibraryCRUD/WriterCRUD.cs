@@ -1,4 +1,5 @@
 ﻿using DataAccesLayer;
+using LibraryDAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,11 @@ namespace LibraryCRUD
 {
     public class WriterCRUD
     {
-        private LibraryDatabaseEntities DbContext;
+        private FilipLibraryEntities DbContext;
 
         private WriterCRUD()
         {
-            DbContext = new LibraryDatabaseEntities();
+            DbContext = new FilipLibraryEntities();
         }
 
         public List<Writer> GetAllWriters()

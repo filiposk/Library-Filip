@@ -56,14 +56,14 @@
     <Compile Include="WriterCRUD.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataAccesLayer\DataAccesLayer.csproj">
-      <Project>{7909b934-4329-4cdd-b5af-2755f0052d2c}</Project>
-      <Name>DataAccesLayer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryDAL\LibraryDAL.csproj">
+      <Project>{a3d5b6b9-7c09-4751-bd4f-84d6e36cf07b}</Project>
+      <Name>LibraryDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

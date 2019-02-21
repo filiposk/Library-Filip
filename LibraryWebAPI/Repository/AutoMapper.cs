@@ -1,6 +1,7 @@
 ﻿
 using AutoMapper;
 using DataAccesLayer;
+using LibraryDAL;
 using LibraryWebApi.Controllers;
 using System;
 using System.Collections.Generic;
@@ -36,3 +37,4 @@ namespace LibraryWebApi.Repository
         }
 
     }
+}

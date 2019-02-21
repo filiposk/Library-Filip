@@ -1,0 +1,14 @@
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\LibraryDatabase.mdf
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\LibraryDatabase_log.ldf
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\LibraryDAL.dll.config
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\LibraryDAL.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\LibraryDAL.pdb
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\EntityFramework.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\EntityFramework.xml
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\obj\Debug\LibraryDAL.csprojAssemblyReference.cache
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\obj\Debug\LibraryDAL.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\obj\Debug\LibraryDAL.csproj.CopyComplete
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\obj\Debug\LibraryDAL.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryDAL\obj\Debug\LibraryDAL.pdb
