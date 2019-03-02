@@ -15,3 +15,8 @@ C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\EntityFramewo
 C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.csproj.CopyComplete
 C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.dll
 C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\obj\Debug\LibraryCRUD.pdb
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\AutoMapper.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\System.ValueTuple.dll
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\AutoMapper.pdb
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\AutoMapper.xml
+C:\Users\Filip\Documents\GitHub\LibraryFilip\LibraryCRUD\bin\Debug\System.ValueTuple.xml

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 
 namespace LibraryWebApi.Controllers
@@ -8,10 +9,9 @@ namespace LibraryWebApi.Controllers
     public class BookModel
     {
         public int Id { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public string Name { get; set; }
 
-        public ICollection<UserModel> User { get; set; }
+        public ICollection<WriterModel> Writer { get; set; }
         public ICollection<BookCategoryModel> BookCategory { get; set; }
     }
 }

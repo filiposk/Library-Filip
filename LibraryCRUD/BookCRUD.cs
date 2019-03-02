@@ -10,9 +10,9 @@ namespace LibraryCRUD
 {
     public class BookCRUD
     {
-        public FilipLibraryEntities DbContext;
+        private FilipLibraryEntities DbContext;
 
-        public BookCRUD()
+        private BookCRUD()
         {
             DbContext = new FilipLibraryEntities();
         }
