@@ -74,7 +74,7 @@ namespace LibraryWebApi.Controllers
             ServiceRepository serviceObj = new ServiceRepository();
             HttpResponseMessage response = serviceObj.DeleteResponse("api/book/DeleteBook?id=" + id.ToString());
             response.EnsureSuccessStatusCode();
-            return RedirectToAction("GetAllProducts");
+            return RedirectToAction("GetAllBooks");
         }
     }
 }

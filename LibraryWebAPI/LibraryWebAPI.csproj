@@ -145,7 +145,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BookCategoryController.cs" />
     <Compile Include="Controllers\BookController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\WriterController.cs" />
     <Compile Include="Models\AdminModel.cs" />
     <Compile Include="Models\BookCategoryModel.cs" />
     <Compile Include="Models\BookModel.cs" />
@@ -181,6 +185,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Admin\" />
+    <Folder Include="Views\BookCategory\" />
+    <Folder Include="Views\User\" />
+    <Folder Include="Views\Writer\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibraryCRUD\LibraryCRUD.csproj">
