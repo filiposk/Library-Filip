@@ -176,6 +176,22 @@
     <Content Include="Views\Book\EditBooks.cshtml" />
     <Content Include="Views\Book\CreateBook.cshtml" />
     <Content Include="Views\Book\Details.cshtml" />
+    <Content Include="Views\Admin\GetAllAdmins.cshtml" />
+    <Content Include="Views\Admin\CreateAdmin.cshtml" />
+    <Content Include="Views\Admin\Details.cshtml" />
+    <Content Include="Views\Admin\EditAdmins.cshtml" />
+    <Content Include="Views\User\GetAllUsers.cshtml" />
+    <Content Include="Views\User\Details.cshtml" />
+    <Content Include="Views\User\EditUsers.cshtml" />
+    <Content Include="Views\User\CreateUser.cshtml" />
+    <Content Include="Views\BookCategory\GetAllBooksCategory.cshtml" />
+    <Content Include="Views\BookCategory\EditBooksCategory.cshtml" />
+    <Content Include="Views\BookCategory\CreateBookCategory.cshtml" />
+    <Content Include="Views\BookCategory\Details.cshtml" />
+    <Content Include="Views\Writer\GetAllWriters.cshtml" />
+    <Content Include="Views\Writer\Details.cshtml" />
+    <Content Include="Views\Writer\EditWriters.cshtml" />
+    <Content Include="Views\Writer\CreateWriter.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -185,10 +201,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Admin\" />
-    <Folder Include="Views\BookCategory\" />
-    <Folder Include="Views\User\" />
-    <Folder Include="Views\Writer\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibraryCRUD\LibraryCRUD.csproj">
