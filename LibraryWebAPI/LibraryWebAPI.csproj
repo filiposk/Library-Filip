@@ -146,7 +146,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BookController.cs" />
-    <Compile Include="Controllers\ShowroomController.cs" />
     <Compile Include="Models\AdminModel.cs" />
     <Compile Include="Models\BookCategoryModel.cs" />
     <Compile Include="Models\BookModel.cs" />
@@ -171,6 +170,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Book\GetAllBooks.cshtml" />
     <Content Include="Views\Book\EditBooks.cshtml" />
+    <Content Include="Views\Book\CreateBook.cshtml" />
+    <Content Include="Views\Book\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

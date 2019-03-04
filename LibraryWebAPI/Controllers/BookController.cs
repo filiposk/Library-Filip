@@ -16,7 +16,7 @@ namespace LibraryWebApi.Controllers
             try
             {
                 ServiceRepository serviceObj = new ServiceRepository();
-                HttpResponseMessage response = serviceObj.GetResponse("api/showroom/getall/books");
+                HttpResponseMessage response = serviceObj.GetResponse("api/book/getall/books");
                 response.EnsureSuccessStatusCode();
                 List<BookModel> books = response.Content.ReadAsAsync<List<BookModel>>().Result;
                 ViewBag.Title = "All Books";
@@ -31,7 +31,7 @@ namespace LibraryWebApi.Controllers
         public ActionResult EditBooks(int id)
         {
             ServiceRepository serviceObj = new ServiceRepository();
-            HttpResponseMessage response = serviceObj.GetResponse("api/showroom/GetBook?id=" + id.ToString());
+            HttpResponseMessage response = serviceObj.GetResponse("api/book/GetBook?id=" + id.ToString());
             response.EnsureSuccessStatusCode();
             BookModel books = response.Content.ReadAsAsync<BookModel>().Result;
             ViewBag.Title = "All Books";
@@ -41,7 +41,7 @@ namespace LibraryWebApi.Controllers
         public ActionResult UpdateBooks(BookModel book)
         {
             ServiceRepository serviceObj = new ServiceRepository();
-            HttpResponseMessage response = serviceObj.PutResponse("api/showroom/UpdateBook", book);
+            HttpResponseMessage response = serviceObj.PutResponse("api/book/UpdateBook", book);
             response.EnsureSuccessStatusCode();
             return RedirectToAction("GetAllBooks");
         }
@@ -49,7 +49,7 @@ namespace LibraryWebApi.Controllers
         public ActionResult Details(int id)
         {
             ServiceRepository serviceObj = new ServiceRepository();
-            HttpResponseMessage response = serviceObj.GetResponse("api/showroom/GetBook?id=" + id.ToString());
+            HttpResponseMessage response = serviceObj.GetResponse("api/book/GetBook?id=" + id.ToString());
             response.EnsureSuccessStatusCode();
             BookModel books = response.Content.ReadAsAsync<BookModel>().Result;
             ViewBag.Title = "All Books";
@@ -62,17 +62,17 @@ namespace LibraryWebApi.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Create(BookModel book)
+        public ActionResult CreateBook(BookModel book)
         {
             ServiceRepository serviceObj = new ServiceRepository();
-            HttpResponseMessage response = serviceObj.PostResponse("api/showroom/InsertBook", book);
+            HttpResponseMessage response = serviceObj.PostResponse("api/book/InsertBook", book);
             response.EnsureSuccessStatusCode();
             return RedirectToAction("GetAllBooks");
         }
         public ActionResult DeleteBook(int id)
         {
             ServiceRepository serviceObj = new ServiceRepository();
-            HttpResponseMessage response = serviceObj.DeleteResponse("api/showroom/DeleteBook?id=" + id.ToString());
+            HttpResponseMessage response = serviceObj.DeleteResponse("api/book/DeleteBook?id=" + id.ToString());
             response.EnsureSuccessStatusCode();
             return RedirectToAction("GetAllProducts");
         }
