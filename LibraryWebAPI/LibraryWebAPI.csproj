@@ -169,7 +169,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\web.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\ShowLibraryDatabase\GetAllBooks.cshtml" />
+    <Content Include="Views\Book\GetAllBooks.cshtml" />
+    <Content Include="Views\Book\EditBooks.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
